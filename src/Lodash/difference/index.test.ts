@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { difference } from './';
+import { difference } from './index';
 
 describe('difference', () => {
   it('should return an array', () => {

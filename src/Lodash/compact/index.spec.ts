@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { compact } from './';
+import { compact } from './index';
 
 describe('compact', () => {
   it('should remove falsy values', () => {

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { dropWhile } from './';
+import { dropWhile } from './index';
 
 describe('dropWhile', () => {
   it('should return slice of the array while the predicate returns false', () => {

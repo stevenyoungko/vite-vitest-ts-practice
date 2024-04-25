@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { fromPairs } from './';
+import { fromPairs } from './index';
 
 describe('lodash.fromPairs', () => {
   it('should return an object in basic usage', () => {

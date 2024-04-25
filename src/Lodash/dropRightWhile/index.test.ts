@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { dropRightWhile } from './';
+import { dropRightWhile } from './index';
 
 describe('dropRightWhile', () => {
   it('should drop elements from the end of the array until the predicate returns false', () => {

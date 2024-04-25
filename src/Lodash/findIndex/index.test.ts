@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { findIndex } from './';
+import { findIndex } from './index';
 
 describe('lodash.findIndex', () => {
   it('basic usage: number array', () => {
