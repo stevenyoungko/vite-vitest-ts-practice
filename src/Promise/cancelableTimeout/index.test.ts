@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { cancelableTimeout } from './';
+import { cancelableTimeout } from './index';
 
 describe('cancelableTimeout', function () {
   it('should get result if the timeout less than the cancel duration', async function () {

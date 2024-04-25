@@ -1,5 +1,5 @@
 import { describe, expect, it, vi, beforeEach, afterEach } from 'vitest';
-import { cancelableInterval } from './';
+import { cancelableInterval } from './index';
 
 describe('cancelableTimeout', function () {
   beforeEach(() => {

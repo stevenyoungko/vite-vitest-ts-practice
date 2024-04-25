@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { addPromises2 } from './';
-import { PROMISE_STATE, sleep } from '../utils/sleep';
+import { addPromises2 } from './index';
+import { PROMISE_STATE, sleep } from '../../utils/sleep';
 
 describe('addPromises2', function () {
   it('should resolve with the sum of the resolved values of the two promises', async function () {

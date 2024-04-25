@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { promiseRace } from './';
-import { PROMISE_STATE, sleep } from '../utils/sleep';
+import { promiseRace } from './index';
+import { PROMISE_STATE, sleep } from '../../utils/sleep';
 
 const fastPromiseParams = {
   duration: 100,

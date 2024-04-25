@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { promiseAll } from './';
+import { promiseAll } from './index';
 
 describe('promiseAll', () => {
   it('should get the result of single promise', async () => {
