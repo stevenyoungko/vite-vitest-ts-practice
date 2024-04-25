@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { fill } from './';
+import { fill } from '.';
 
 describe('Array.fill', () => {
   it('should handle basic cases', () => {

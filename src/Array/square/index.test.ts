@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest';
-import './';
+import '.';
 
 const testCases = [
   [

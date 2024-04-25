@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest';
-import { getAverage } from './';
+import { getAverage } from '.';
 
 const testCases = [
   [[0, -1, 2, -3, 4, -5], [-0.5]],
