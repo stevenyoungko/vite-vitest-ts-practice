@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { inRange } from './';
+import { inRange } from '.';
 
 describe('inRange', () => {
   describe('three arguments', () => {

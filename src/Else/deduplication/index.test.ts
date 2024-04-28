@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import * as utils from './';
+import * as utils from '.';
 
 const arr = [9, 1, 2, 2, 3, 4, 2, 4, 8, 1, 9];
 const assert = (result: number[]) => expect(result).toEqual([9, 1, 2, 3, 4, 8]);

@@ -1,5 +1,5 @@
 import { describe, expect, it, vi, beforeEach, afterEach } from 'vitest';
-import { repeat } from './';
+import { repeat } from '.';
 
 describe('repeat function with interval', () => {
   beforeEach(() => {
