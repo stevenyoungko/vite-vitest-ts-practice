@@ -10,3 +10,15 @@ export function throttle(fn, t) {
     }
   };
 }
+
+function throttle2(fn, delay = 500) {
+  let timer = null;
+
+  return (...args) => {
+    if (timer) return;
+    timer = setTimeout(() => {
+      fn(...args);
+      timer = null;
+    }, delay);
+  };
+}
