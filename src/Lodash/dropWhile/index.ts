@@ -23,3 +23,17 @@ export function dropWhile2<T>(array: T[], predicate: (val: T) => boolean): T[] {
 
   return result;
 }
+
+// example3
+export function dropWhile3<T>(array: T[], predicate: (val: T) => boolean): T[] {
+  let flag = false;
+  return [...array].filter((item) => {
+    if (flag) return item;
+
+    const res = predicate(item)
+    if (!res) {
+      flag = true;
+      return item;
+    }
+  });
+}
