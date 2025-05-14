@@ -32,3 +32,22 @@ export function fill<T, V>(
 
   return array;
 }
+
+
+// example2
+function fill2<T, V>(array: (T | V)[], value: V, start = 0, end = array.length) {
+  if (start < 0) {
+    start += array.length
+  }
+  if (end < 0) {
+    end += array.length
+  }
+
+  
+  return array.map((item, index) => {
+    if (index >= start && index < end) {
+      return value
+    }
+    return item
+  })  
+}
