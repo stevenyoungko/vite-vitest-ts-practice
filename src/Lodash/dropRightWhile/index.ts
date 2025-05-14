@@ -10,3 +10,14 @@ export function dropRightWhile<T>(array: T[], predicate: (item: T) => boolean) {
 
   return result;
 }
+
+
+// example2
+function dropRightWhile2<T>(array: T[], predicate: (item: T) => boolean) {
+  for (let i = array.length -1; i >= 0; i--) {
+      const res = predicate(array[i])
+      if (!res) {
+          return array.slice(0, i + 1);
+      }
+  }
+}
